@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Below are some pages that are examples of #{title}.
+  h2 Sections.
+  a(href="jade") JADE
+  a(href="time") Current time
